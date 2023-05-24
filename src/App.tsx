@@ -1,8 +1,8 @@
 import './App.css'
 import { ConfigProvider } from 'antd'
-import { ANT_THEME_CONFIG } from 'src/constants/configTheme.ts'
-import { CommonLayout } from 'src/components/CommonLayout'
-import { Calculator } from 'src/components/Calculator'
+import { ANT_THEME_CONFIG } from './constants/configTheme'
+import { CommonLayout } from './components/CommonLayout'
+import { Calculator } from './components/Calculator'
 
 function App() {
   return (
